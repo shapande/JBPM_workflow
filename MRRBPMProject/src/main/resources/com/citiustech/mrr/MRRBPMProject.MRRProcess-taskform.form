@@ -1,0 +1,246 @@
+
+<form id="1366349363">
+<property name="name" value="MRRBPMProject.MRRProcess-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="27" name="chase_status" type="InputText" id="270778019">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;status (chase)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="chase/status"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="9" name="chase_facility" type="InputTextLong" id="335446906">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;facility (chase)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="chase/facility"/>
+<property name="fieldClass" value="java.lang.Long"/>
+</field>
+<field position="16" name="chase_measureVersion" type="InputTextLong" id="1136599863">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;measureVersion (chase)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="chase/measureVersion"/>
+<property name="fieldClass" value="java.lang.Long"/>
+</field>
+<field position="10" name="chase_followpDate" type="InputDate" id="1684942756">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;followpDate (chase)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="chase/followpDate"/>
+<property name="fieldClass" value="java.util.Date"/>
+</field>
+<field position="22" name="chase_rptFromDate" type="InputDate" id="1884499288">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;rptFromDate (chase)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="chase/rptFromDate"/>
+<property name="fieldClass" value="java.util.Date"/>
+</field>
+<field position="0" name="chase_action" type="InputText" id="41519721">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;action (chase)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="chase/action"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="13" name="chase_lobId" type="InputTextLong" id="1651126586">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;lobId (chase)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="chase/lobId"/>
+<property name="fieldClass" value="java.lang.Long"/>
+</field>
+<field position="26" name="chase_spocPhoneNumber" type="InputText" id="918920533">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;spocPhoneNumber (chase)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="chase/spocPhoneNumber"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="20" name="chase_prodId" type="InputTextLong" id="159682262">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;prodId (chase)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="chase/prodId"/>
+<property name="fieldClass" value="java.lang.Long"/>
+</field>
+<field position="1" name="chase_assignedTo" type="InputTextLong" id="1098887340">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;assignedTo (chase)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="chase/assignedTo"/>
+<property name="fieldClass" value="java.lang.Long"/>
+</field>
+<field position="12" name="chase_id" type="InputTextLong" id="409140721">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;id (chase)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="chase/id"/>
+<property name="fieldClass" value="java.lang.Long"/>
+</field>
+<field position="18" name="chase_overrequired" type="InputTextInteger" id="1420951585">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;overrequired (chase)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="chase/overrequired"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="17" name="chase_member" type="InputTextLong" id="1144285539">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;member (chase)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="chase/member"/>
+<property name="fieldClass" value="java.lang.Long"/>
+</field>
+<field position="14" name="chase_measure" type="InputTextLong" id="976262568">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;measure (chase)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="chase/measure"/>
+<property name="fieldClass" value="java.lang.Long"/>
+</field>
+<field position="4" name="chase_chaseStatusMstrId" type="InputTextLong" id="1436366023">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;chaseStatusMstrId (chase)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="chase/chaseStatusMstrId"/>
+<property name="fieldClass" value="java.lang.Long"/>
+</field>
+<field position="21" name="chase_rawChaseId" type="InputTextLong" id="1777104950">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;rawChaseId (chase)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="chase/rawChaseId"/>
+<property name="fieldClass" value="java.lang.Long"/>
+</field>
+<field position="19" name="chase_practitioner" type="InputTextLong" id="17461137">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;practitioner (chase)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="chase/practitioner"/>
+<property name="fieldClass" value="java.lang.Long"/>
+</field>
+<field position="31" name="chase_vldToDate" type="InputDate" id="1485504784">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;vldToDate (chase)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="chase/vldToDate"/>
+<property name="fieldClass" value="java.util.Date"/>
+</field>
+<field position="33" name="user" type="InputText" id="47698571">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;user (user)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="user"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="23" name="chase_rptToDate" type="InputDate" id="775134636">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;rptToDate (chase)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="chase/rptToDate"/>
+<property name="fieldClass" value="java.util.Date"/>
+</field>
+<field position="11" name="chase_healthPlanId" type="InputTextLong" id="639052594">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;healthPlanId (chase)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="chase/healthPlanId"/>
+<property name="fieldClass" value="java.lang.Long"/>
+</field>
+<field position="8" name="chase_endDate" type="InputDate" id="682591877">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;endDate (chase)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="chase/endDate"/>
+<property name="fieldClass" value="java.util.Date"/>
+</field>
+<field position="5" name="chase_counter" type="InputTextInteger" id="289636968">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;counter (chase)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="chase/counter"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="29" name="chase_user" type="InputText" id="1429824085">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;user (chase)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="chase/user"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="25" name="chase_spocName" type="InputText" id="1702754707">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;spocName (chase)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="chase/spocName"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="2" name="chase_campaign" type="InputText" id="114764327">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;campaign (chase)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="chase/campaign"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="32" name="chase_workflowInstanceid" type="InputTextLong" id="1460603391">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;workflowInstanceid (chase)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="chase/workflowInstanceid"/>
+<property name="fieldClass" value="java.lang.Long"/>
+</field>
+<field position="28" name="chase_subMeasureCode" type="InputText" id="1140494731">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;subMeasureCode (chase)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="chase/subMeasureCode"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="24" name="chase_spocEmail" type="InputText" id="685417256">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;spocEmail (chase)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="chase/spocEmail"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="6" name="chase_delFlag" type="CheckBox" id="861142496">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;delFlag (chase)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="chase/delFlag"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="7" name="chase_denomQalifyingEventDate" type="InputDate" id="1797614294">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;denomQalifyingEventDate (chase)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="chase/denomQalifyingEventDate"/>
+<property name="fieldClass" value="java.util.Date"/>
+</field>
+<field position="15" name="chase_measureCode" type="InputText" id="1277226133">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;measureCode (chase)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="chase/measureCode"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="3" name="chase_campaignId" type="InputTextLong" id="1679873111">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;campaignId (chase)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="chase/campaignId"/>
+<property name="fieldClass" value="java.lang.Long"/>
+</field>
+<field position="30" name="chase_vldFromDate" type="InputDate" id="1928390926">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;vldFromDate (chase)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="chase/vldFromDate"/>
+<property name="fieldClass" value="java.util.Date"/>
+</field>
+<dataHolder inputId="" name="#E9E371" type="dataModelerEntry" outId="chase" value="com.citiustech.mrr.ChaseData" id="chase"/>
+<dataHolder inputId="" name="#FF54A7" type="basicType" outId="user" value="java.lang.String" id="user"/>
+</form>
