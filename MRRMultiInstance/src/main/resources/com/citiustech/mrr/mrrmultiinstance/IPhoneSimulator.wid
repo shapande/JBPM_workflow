@@ -1,0 +1,17 @@
+import org.drools.core.process.core.datatype.impl.type.StringDataType;
+[
+  [
+    "name" : "IPhoneSimulator",
+    "description" : "Ability to view an url inside an iPhone Simulator",
+    "parameters" : [
+      "url" : new StringDataType()
+    ],
+    "displayName" : "IPhoneSimulator",
+    "icon" : "iphone.png",
+    "category" : "Simulations",
+    "dependencies" : [
+    ]
+  ]
+
+]
+
