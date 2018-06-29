@@ -1,8 +1,0 @@
-
-<form id="1221973783">
-<property name="name" value="Abstracter-taskform.form"/>
-<property name="displayMode" value="default"/>
-<property name="status" value="0"/>
-<dataHolder inputId="parentProcessID" name="#BBBBBB" type="basicType" outId="parentProcessID" value="java.lang.String" id="parentProcessID"/>
-<dataHolder inputId="subProcessID" name="#9BCAFA" type="basicType" outId="subProcessID" value="java.lang.String" id="subProcessID"/>
-</form>
