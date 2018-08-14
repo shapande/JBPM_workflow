@@ -1,0 +1,252 @@
+
+<form id="1485506130">
+<property name="name" value="CMTask-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="9" name="cmm_cmmChseDueDt" type="InputDate" id="400199966">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;cmmChseDueDt (cmm)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="cmm/cmmChseDueDt"/>
+<property name="outputBinding" value="cmm/cmmChseDueDt"/>
+<property name="fieldClass" value="java.util.Date"/>
+</field>
+<field position="6" name="cmm_assgdToLgnId" type="InputText" id="642295373">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;assgdToLgnId (cmm)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="cmm/assgdToLgnId"/>
+<property name="outputBinding" value="cmm/assgdToLgnId"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="23" name="cmm_rawChseId" type="InputTextLong" id="39022555">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;rawChseId (cmm)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="cmm/rawChseId"/>
+<property name="outputBinding" value="cmm/rawChseId"/>
+<property name="fieldClass" value="java.lang.Long"/>
+</field>
+<field position="26" name="cmm_submsrCd" type="InputText" id="1962754293">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;submsrCd (cmm)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="cmm/submsrCd"/>
+<property name="outputBinding" value="cmm/submsrCd"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="4" name="cmm_abstracterCounter" type="InputTextInteger" id="236556752">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;abstracterCounter (cmm)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="cmm/abstracterCounter"/>
+<property name="outputBinding" value="cmm/abstracterCounter"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="1" name="absProvList_cpmmOnHold" bag-type="com.citiustech.mrr.CPMM1" type="MultipleSubform" id="603181863">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;cpmmOnHold (absProvList)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="absProvList/cpmmOnHold"/>
+<property name="fieldClass" value="java.util.List"/>
+</field>
+<field position="10" name="cmm_cmmChseSts" type="InputText" id="487122320">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;cmmChseSts (cmm)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="cmm/cmmChseSts"/>
+<property name="outputBinding" value="cmm/cmmChseSts"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="18" name="cmm_measureId" type="InputTextLong" id="825004467">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;measureId (cmm)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="cmm/measureId"/>
+<property name="outputBinding" value="cmm/measureId"/>
+<property name="fieldClass" value="java.lang.Long"/>
+</field>
+<field position="5" name="cmm_action" type="InputText" id="941344952">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;action (cmm)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="cmm/action"/>
+<property name="outputBinding" value="cmm/action"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="29" name="cmm_validToDate" type="InputDate" id="2018322793">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;validToDate (cmm)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="cmm/validToDate"/>
+<property name="outputBinding" value="cmm/validToDate"/>
+<property name="fieldClass" value="java.util.Date"/>
+</field>
+<field position="15" name="cmm_cpmgId" type="InputTextLong" id="1664695644">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;cpmgId (cmm)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="cmm/cpmgId"/>
+<property name="outputBinding" value="cmm/cpmgId"/>
+<property name="fieldClass" value="java.lang.Long"/>
+</field>
+<field position="2" name="absProvList_cpmmProcessId" bag-type="java.lang.Integer" type="MultipleInput" id="128640716">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;cpmmProcessId (absProvList)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="absProvList/cpmmProcessId"/>
+<property name="fieldClass" value="java.util.List"/>
+</field>
+<field position="8" name="cmm_cmmChseCd" type="InputText" id="564767503">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;cmmChseCd (cmm)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="cmm/cmmChseCd"/>
+<property name="outputBinding" value="cmm/cmmChseCd"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="24" name="cmm_rptFrom" type="InputDate" id="1804089632">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;rptFrom (cmm)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="cmm/rptFrom"/>
+<property name="outputBinding" value="cmm/rptFrom"/>
+<property name="fieldClass" value="java.util.Date"/>
+</field>
+<field position="20" name="cmm_msrCd" type="InputText" id="1229254441">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;msrCd (cmm)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="cmm/msrCd"/>
+<property name="outputBinding" value="cmm/msrCd"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="17" name="cmm_deleted" type="CheckBox" id="1531148204">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;deleted (cmm)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="cmm/deleted"/>
+<property name="outputBinding" value="cmm/deleted"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="30" name="parentProcessID" type="InputText" id="1957845149">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;parentProcessID (parentProcessID)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="parentProcessID"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="14" name="cmm_counter" type="InputTextInteger" id="656696340">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;counter (cmm)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="cmm/counter"/>
+<property name="outputBinding" value="cmm/counter"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="16" name="cmm_cpmmList" bag-type="com.citiustech.mrr.CPMM1" type="MultipleSubform" id="994787449">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;cpmmList (cmm)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="cmm/cpmmList"/>
+<property name="outputBinding" value="cmm/cpmmList"/>
+<property name="fieldClass" value="java.util.List"/>
+</field>
+<field position="0" name="absProvList_cpmm" bag-type="com.citiustech.mrr.CPMM1" type="MultipleSubform" id="1460788770">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;cpmm (absProvList)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="absProvList/cpmm"/>
+<property name="fieldClass" value="java.util.List"/>
+</field>
+<field position="7" name="cmm_assignToUser" type="InputText" id="8360458">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;assignToUser (cmm)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="cmm/assignToUser"/>
+<property name="outputBinding" value="cmm/assignToUser"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="13" name="cmm_cmpgCd" type="InputText" id="550893792">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;cmpgCd (cmm)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="cmm/cmpgCd"/>
+<property name="outputBinding" value="cmm/cmpgCd"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="25" name="cmm_rptTo" type="InputDate" id="1692386602">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;rptTo (cmm)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="cmm/rptTo"/>
+<property name="outputBinding" value="cmm/rptTo"/>
+<property name="fieldClass" value="java.util.Date"/>
+</field>
+<field position="21" name="cmm_msrVer" type="InputTextInteger" id="1255693678">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;msrVer (cmm)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="cmm/msrVer"/>
+<property name="outputBinding" value="cmm/msrVer"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="28" name="cmm_validFromDate" type="InputDate" id="1624655022">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;validFromDate (cmm)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="cmm/validFromDate"/>
+<property name="outputBinding" value="cmm/validFromDate"/>
+<property name="fieldClass" value="java.util.Date"/>
+</field>
+<field position="19" name="cmm_memId" type="InputTextLong" id="1275286394">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;memId (cmm)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="cmm/memId"/>
+<property name="outputBinding" value="cmm/memId"/>
+<property name="fieldClass" value="java.lang.Long"/>
+</field>
+<field position="3" name="absProvList_cpmmSize" type="InputTextInteger" id="1280741164">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;cpmmSize (absProvList)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="absProvList/cpmmSize"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="27" name="cmm_submsrId" type="InputTextLong" id="295167341">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;submsrId (cmm)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="cmm/submsrId"/>
+<property name="outputBinding" value="cmm/submsrId"/>
+<property name="fieldClass" value="java.lang.Long"/>
+</field>
+<field position="11" name="cmm_cmmChseStsId" type="InputTextLong" id="757910871">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;cmmChseStsId (cmm)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="cmm/cmmChseStsId"/>
+<property name="outputBinding" value="cmm/cmmChseStsId"/>
+<property name="fieldClass" value="java.lang.Long"/>
+</field>
+<field position="22" name="cmm_ovrdCnt" type="InputTextLong" id="287376346">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;ovrdCnt (cmm)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="cmm/ovrdCnt"/>
+<property name="outputBinding" value="cmm/ovrdCnt"/>
+<property name="fieldClass" value="java.lang.Long"/>
+</field>
+<field position="12" name="cmm_cmmId" type="InputTextLong" id="933163811">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;cmmId (cmm)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="cmm/cmmId"/>
+<property name="outputBinding" value="cmm/cmmId"/>
+<property name="fieldClass" value="java.lang.Long"/>
+</field>
+<dataHolder inputId="" name="#000000" type="dataModelerEntry" outId="absProvList" value="com.citiustech.mrr.AbsProvList" id="absProvList"/>
+<dataHolder inputId="cmm" name="#FF54A7" type="dataModelerEntry" outId="cmm" value="com.citiustech.mrr.CMM1" id="cmm"/>
+<dataHolder inputId="" name="#BBBBBB" type="basicType" outId="parentProcessID" value="java.lang.String" id="parentProcessID"/>
+</form>
