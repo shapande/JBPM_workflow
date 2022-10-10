@@ -1,0 +1,13 @@
+[
+  [
+    "name" : "WorkflowItemHandler",
+    "parameters" : [
+        "workflowItem" : new ObjectDataType("com.citiustech.mrr.WorkflowItem")
+    ],
+    "results" : [
+        "workflowItem" : new ObjectDataType("com.citiustech.mrr.WorkflowItem") 
+    ],
+    "displayName" : "WorkflowItemHandler",
+    "icon" : ""
+  ]
+]
